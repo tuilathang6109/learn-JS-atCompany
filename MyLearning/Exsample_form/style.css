@@ -1,0 +1,65 @@
+
+#main {
+
+}
+.close-btn {
+    cursor: pointer;
+    margin-top: 16px;
+    width: 48px;
+    padding: 8px 0;
+}
+.btn {
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    background-color: dodgerblue;
+    margin: 0 16px;
+    padding: 16px;
+    border: 1px solid #ccc;
+}
+.btn button:hover {
+    cursor: pointer;
+    color: #fff;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+
+}
+.overflow {
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.log-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+    padding: 32px;
+    background-color: #ccc;
+}
+
+.res-form {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    background-color: #ccc;
+    
+    -ms-overflow-style: none; /* cho  Internet Explorer, Edge */
+    scrollbar-width: none; /* cho Firefox */
+    overflow-y: scroll; 
+}
+
+
+.res-form ::-webkit-scrollbar {
+    display: none;
+}
